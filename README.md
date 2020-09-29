@@ -24,4 +24,10 @@ This Node/React app will help you gain a better understanding on how conditional
     dataType prop dose not exsist in the API it will return a object containing a errorCode and message.
     Lastly if everything works we will set the state using this.setState(), if we get this far we save 
     the response in the state and change the loading state to false to indicate the page is no longer loading.
-    4: In the render method you can use JS to check on data in the state and return JSX based on the result
+    4: In the render method you can use JS to check on data in the state and return JSX based on the result.
+
+    ```javascript
+          componentDidMount() {
+
+          }
+    ```
