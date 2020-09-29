@@ -13,7 +13,7 @@ class App extends React.Component {
   componentDidMount() {
     loadData(this.props.dataType).then((response) => {
       console.log(response)
-      if (!response) {
+      if (response === 'Error') {
         this.setState({
           error: 'API seems down',
           code: 'ERR_CONNECTION_REFUSED'

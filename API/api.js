@@ -15,10 +15,11 @@ app.get('/number', function (req, res) {
 app.get('/boolean', function (req, res) {
     let picker = Math.floor(Math.random() * (2 - 1 + 1) + 1)
     if (picker === 1) {
-        res.send(true)
+        res.send('true')
     } else {
         res.send(false)
     }
+    console.log(picker)
 })
 
 app.get('/object', function (req, res) {
