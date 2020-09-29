@@ -37,6 +37,9 @@ This Node/React app will help you gain a better understanding on how conditional
     1: The parent component calls the child component passing a prop called dataType.
     2: the child component is a React class meaning we can use state, in the constructor method
     we use this.state = {} to set a loading equal to true
-    3: Once the component has rendered it will call componentDidMount(), fetch the data then update
-    the state of the component.
-    4: Because the state has changed it will re-run the render method.
+    3: Once the component has rendered it will call componentDidMount(), this will fetch the data
+    then update the state using this.setState(), when it calls this we update loading to be false
+    and saves response into data
+    4: Because the state has changed it will re-run the render method and re-run the if statements
+    and now as the loading state is false it and data has been set it will render the data and not 
+    the loading screen.
