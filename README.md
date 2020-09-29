@@ -26,8 +26,6 @@ This Node/React app will help you gain a better understanding on how conditional
     the response in the state and change the loading state to false to indicate the page is no longer loading.
     4: In the render method you can use JS to check on data in the state and return JSX based on the result.
 
-    ```javascript
-          componentDidMount() {
-
-          }
-    ```
+```javascript
+componentDidMount()
+```
