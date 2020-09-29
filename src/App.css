@@ -1,0 +1,10 @@
+.data {
+  text-align: center;
+  border: 1px solid;
+  padding: 20px 0px 20px 0px;
+  margin-top: 10px;
+}
+.data p {
+  background-color: black;
+  color: lime;
+}
